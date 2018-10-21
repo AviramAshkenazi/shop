@@ -10,8 +10,8 @@ var methodChanageMoney = require('../../../Page/chanageMoney.js')
 var methodOrderList = require('../../../Page/orderList.js')
 describe("Order items",()=>{
     it("SearchItem",()=>{
-        cy.visit('http://shop.thetestingworld.com/index');
-        methodsSearchItem.searchItem();
+       cy.visit('http://shop.thetestingworld.com/index');
+       methodsSearchItem.searchItem();
     })
     it("Add review to item",()=>{
         methodAddReview.addReview();
